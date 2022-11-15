@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+html,
+body, main{
+  width: 100%;
+  height: 100%;
+  font-family: 'Lato', sans-serif;
+  scroll-behavior: smooth;
+  background-color: white;
+}
+main{
+  /*Impede que o usuario copie */
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/*Campo que insere a imagem  */
+.personal-image {
+  padding-left: 45%;
+  padding-top:1rem;
+  background-color: transparent;
+}
+
+.personal-image input[type="file"] {
+  display: none;
+}
+
+.personal-figure {
+  position: absolute !important;
+  width: 160px;
+  height: 160px;
+  background-color: white;
+  border-radius: 100%;
+}
+
+.personal-avatar{
+  cursor: pointer;
+  position: relative;
+  width: 160px;
+  height: 160px;
+  box-sizing: border-box;
+  border-radius: 100%;
+  border: 2px solid transparent;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.2);
+  transition: all ease-in-out .3s;
+}
+.personal-avatar:hover {
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
+}
+
+.personal-figcaption {
+  cursor: pointer;
+  position: absolute;
+  top: 0px;
+  width: inherit;
+  height: inherit;
+  border-radius: 100%;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0);
+  transition: all ease-in-out .3s;
+}
+
+.personal-figcaption:hover {
+  opacity: 1;
+  background-color: rgba(0, 0, 0, .5);
+}
+
+.personal-figcaption>img {
+  margin-top: 3rem;
+  margin-left: 3.2rem;
+  width: 55px;
+  height: 55px;
+}
+
+/* tabela */
+.table{
+   /* Impede que copiem as informações */
+   -moz-user-select: none;
+   -webkit-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+}
+
+#button_infor{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 18px;
+  color: black;
+  text-transform: uppercase;
+  font-family: Lucida Sans Unicode, Arial, sans-serif !important;
+  border: none;
+  background: transparent;
+  width: 100%;
+}
+
+/*Os dados do usuario */
+.dados {
+  text-align: center;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Adicionar Professor</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/form_editarecadastrar.css">
+    </head>
+    <body>
+        <h1>Adicionar Professor</h1>
+
+        <form action="addusuario.jsp" method="post">
+            <div>
+                <input type="text" name="nome" placeholder="Nome">
+            </div>
+            <div>
+                <input type="email" name="email" placeholder="Email">
+            </div>
+            <div>
+                <input type="password" name="senha" placeholder="Senha">
+            </div>
+            <div>
+                <input type="radio" name="condicao" value="Ativo" checked>Ativo
+                <input type="radio" name="condicao" value="Inativo">Inativo
+            </div>
+            <div>
+                <input type="radio" name="acesso" value="Professor" checked>Professor                
+            </div>
+            <div>
+                <input type="hidden" name="chave" value=" ">                
+            </div>
+            <div>
+                <input type="hidden" name="imagem" value=" ">                
+            </div>
+            <div>
+                <input type="submit" name="submit" value="Cadastrar">
+            </div>
+        </form>
+    </body>
+</html>

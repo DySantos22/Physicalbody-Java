@@ -1,0 +1,25 @@
+main {
+    margin-left: 200px;
+}
+
+.content {
+    padding-top: 8rem;
+}
+
+.grafico {
+    float: right;
+    margin-top: 8rem;
+    width:400px;
+    height:400px;
+}
+#content_p{
+    display:none;
+}
+
+input[type=button]{
+    background: white;
+    color: black;
+    border: 2px solid gray;
+    border-radius: 20px;
+    padding: 3px;
+}
