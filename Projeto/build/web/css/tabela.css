@@ -1,0 +1,66 @@
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+.sorting,
+.dataTables_wrapper{
+  position: static !important;
+}
+
+  td,
+  th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    background: white;
+  }
+  
+  
+  th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: black !important;
+    color: white;
+  }
+  
+  img {
+    width: 30px;
+  }
+  
+#apresentacao{
+  text-align: center;
+  padding: 1.2rem;
+}
+
+.container {
+  display: flex !important;
+  flex-wrap: wrap;
+  justify-content: right;
+  padding-bottom: 1.5rem;
+}
+    
+.btn-text-top {
+  background-color: #f5f6fa;
+  border: 1px solid rgba(255, 255, 255, .1);
+  padding: 15px 50px 15px 30px;
+  border-radius: 20px;
+  width: 30%!important;
+  height: 42px;
+  font-weight: 300;
+  color: #8795a2;
+}
+    
+.btn-buscar-top {
+  width: 20px!important;
+  height: 22px;
+  background: url(http://www.devmedia.com.br/imagens/2013/buscar_grey.png) no-repeat;
+  cursor: pointer!important;
+  border: none;
+  transform: translateY(-50%);
+  padding: 0;
+  position: relative;
+  top: 1.3rem;
+  left: -38px;
+}
