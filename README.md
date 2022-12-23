@@ -5,8 +5,8 @@
 #
 
 <p> :black_circle: Visualizar a situação de Alunos que estão matriculados na academia.</p>
-<p> :black_circle: Podemos Controlar a situação, realizar o cadastro de professores e editar suas informações.</p>
-<p> :black_circle: Temos a visualização dos relatórios sobre Alunos, Professores, A situação dos mesmos e etc.</p>
+<p> :black_circle: Controlar a situação, realizar o cadastro de professores e editar suas informações.</p>
+<p> :black_circle: Visualizar os relatórios sobre Alunos, Professores, A situação dos mesmos e etc.</p>
 
 ##
 
